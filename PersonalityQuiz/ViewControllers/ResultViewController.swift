@@ -18,8 +18,8 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
         navigationItem.hidesBackButton = true
         getUserResult()
-        
     }
+    
     // Наверняка есть более изящный способ посчитать количество и вывести результат, кажется это не он.
     private func getUserResult() {
         
